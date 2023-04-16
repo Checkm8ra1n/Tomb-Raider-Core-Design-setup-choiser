@@ -16,13 +16,13 @@ if '%choice%'=='4' goto TR5
 ECHO "%choice%" is not valid, try again
 ECHO.
 goto start
-:TR2GOLD
-cd "C:\Program Files (x86)\Core Design\Tomb Raider II\"
+:TR2/TR2GOLD Setup
+cd "C:\Program Files (x86)\Core Design\Tomb Raider II"
 Tomb2.exe -setup
 goto end
-:TR3GOLD
+:TR3/TR3GOLD
 CD "C:\Program Files (x86)\Core Design\Tomb Raider III\"
-TOMB3.EXE -SETUP
+tomb3.exe -setup
 goto end
 :TR4
 CD "C:\Program Files (x86)\Core Design\Tomb Raider - The Last Revelation"
